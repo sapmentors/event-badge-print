@@ -1,0 +1,29 @@
+###
+POST http://localhost:4004/rest/webhook/checkin.created
+Content-Type: application/json
+
+{
+  "id": 10897934,
+  "slug": "ti_pSTTkKVGTCcLCiQ5zDkI1Jw",
+  "name": "Gregor Wolf",
+  "company_name": null,
+  "first_name": "Gregor",
+  "last_name": "Wolf",
+  "release_title": "VIP",
+  "email": "demo@dummy.org",
+  "reference": "LEIW-1",
+  "registration_reference": "LEIW",
+  "checked_in": true,
+  "checked_in_at": "2024-04-16T22:06:46.000Z",
+  "checkin_list": {
+    "slug": "chk_pdmHShkOFttHmz7KHYNZ42w",
+    "title": "Test Check In"
+  },
+  "checkin_uuid": "096445b1-b1ca-42cb-aae2-f038a8e7f504",
+  "custom": null,
+  "event": {
+    "slug": "ticketing-test",
+    "title": "Ticketing Test"
+  },
+  "answers": []
+}
